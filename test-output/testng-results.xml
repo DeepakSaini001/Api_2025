@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-13T23:41:20 IST" name="Default suite" finished-at="2025-02-13T23:41:25 IST" duration-ms="5363">
+    <groups>
+    </groups>
+    <test started-at="2025-02-13T23:41:20 IST" name="Default test" finished-at="2025-02-13T23:41:25 IST" duration-ms="5363">
+      <class name="spotify.oauth2.tests.TC_04_PlayListTests_POJO_API_RestResource">
+        <test-method signature="createAPIPlayList()[pri:1, instance:spotify.oauth2.tests.TC_04_PlayListTests_POJO_API_RestResource@6d4e5011]" started-at="2025-02-13T23:41:20 IST" name="createAPIPlayList" finished-at="2025-02-13T23:41:24 IST" duration-ms="4581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAPIPlayList -->
+        <test-method signature="getAPIPlayList()[pri:2, instance:spotify.oauth2.tests.TC_04_PlayListTests_POJO_API_RestResource@6d4e5011]" started-at="2025-02-13T23:41:24 IST" name="getAPIPlayList" finished-at="2025-02-13T23:41:25 IST" depends-on-methods="spotify.oauth2.tests.TC_04_PlayListTests_POJO_API_RestResource.createAPIPlayList" duration-ms="372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAPIPlayList -->
+        <test-method signature="updateAPIPlayList()[pri:3, instance:spotify.oauth2.tests.TC_04_PlayListTests_POJO_API_RestResource@6d4e5011]" started-at="2025-02-13T23:41:25 IST" name="updateAPIPlayList" finished-at="2025-02-13T23:41:25 IST" depends-on-methods="spotify.oauth2.tests.TC_04_PlayListTests_POJO_API_RestResource.createAPIPlayList" duration-ms="320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateAPIPlayList -->
+      </class> <!-- spotify.oauth2.tests.TC_04_PlayListTests_POJO_API_RestResource -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
